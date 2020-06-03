@@ -1,0 +1,20 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		window.onload = function() {
+		if (window.confirm("Okay, everyone I hope this link works. If it does, all you have to do is swipe up and it will open your email. lt will be a fully written email with placeholders for your name and the city you're from, and it will be demanding that ALL four of George Floyd's killers be taken into custody and charged. lt will be sent to the Minneapolis Police Department heads. \nSUCH AN EASY ACTION. DO IT." )) {
+			window.location.replace("mailto:police@minneapolismn.gov?bcc=minneapolis311@minneapolismn.gov,citizeninfo@hennepin.us,info@mpdfederation.com&subject=Justice%20for%20the%20Murder%20of%20George%20Floyd&body=Hello,%0A%0AMy%20name%20is%20%5Binsert%20name%5D.%20I%20am%20a%20resident%20of%20%5BState/City%5D%20and%20I%20am%20emailing%20today%20to%20demand%20accountability%20for%20the%20racist%20murder%20of%20George%20Floyd.%0A%0AI%20demand%20that%20charges%20be%20pressed%20against%20all%20officers%20involved%20in%20this%20heinous%20racist%20murder,%20including%20specifically%20Derek%20Chauvin%20and%20Tou%20Thao.%20They%20should%20not%20be%20allowed%20to%20keep%20their%20jobs%20and%20should%20be%20charged%20and%20prosecuted%20to%20the%20fullest%20extent%20of%20the%20law%20for%20manslaughter.%0A%0AGeorge%20Floyd%20should%20be%20alive%20today%20if%20it%20was%20not%20for%20the%20gross%20abuse%20of%20power%20and%20white%20supremacy%20exhibited%20by%20the%20Minneapolis%20Police%20Department,%20all%20officers%20involved%20must%20face%20consequences%20for%20this%20murder%20in%20order%20to%20provide%20his%20family%20with%20justice%20and%20prevent%20further%20cops%20from%20committing%20brutal%20acts%20of%20violence%20against%20our%20communities.%0A%0AIn%20addition,%20I%20demand%20that%20we%20start%20providing%20more%20support%20towards%20community%20efforts%20and%20organizations%20outside%20of%20the%20police%20forces%20in%20order%20to%20prevent%20police%20brutality%20and%20violence%20in%20the%20future.%20%0A%0ASincerely,%0A%5Byour%20name%5D");
+		}
+	}
+	</script>
+</head>
+<body style="font-family: sans-serif; text-align: center">
+	<h1>Thank you!</h1>
+	<p>Link: <code id='shareLink'>shareLink</code></p>
+	<script>
+		document.getElementById('shareLink').textContent = window.location;
+	</script>
+</body>
+</html>
